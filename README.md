@@ -4,7 +4,7 @@ Firefox Sync is great and in a portable Docker Container it's even greater! [Rea
 
 ## Requirements
 
-* postgresql ( a new version )
+* postgresql ( [dockerize pg](https://gist.github.com/erdii/2f56556b59447db83bc9) )
 * nginx ( if you want to run behind https reverse proxy )
 
 
