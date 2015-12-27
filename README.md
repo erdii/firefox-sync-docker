@@ -19,8 +19,10 @@ Firefox Sync is great and in a portable Docker Container it's even greater!
 
 ## Shake that
 
-* if you want to run with an external pg server: `docker run -v ./:/conf -p 5000:5000 --name fsync -d erdii/firefox-sync-docker`
-* if you want to link with pg container `postgres`: `docker run -v ./:conf -p 5000:5000 --name fsync --link postgres -d erdii/firefox-sync-docker`
+* if you want to run with an external pg server:
+  * `docker run -v ./:/conf -p 5000:5000 --name fsync -d erdii/firefox-sync-docker`
+* if you want to link with pg container `postgres`:
+  * `docker run -v ./:conf -p 5000:5000 --name fsync --link postgres -d erdii/firefox-sync-docker`
 
 ## Client Setup
 
