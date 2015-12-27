@@ -1,11 +1,11 @@
 # Firefox Sync Server in a Docker Container
 
-Firefox Sync is great and in a portable Docker Container it's even greater!
-
+Firefox Sync is great and in a portable Docker Container it's even greater! [Read more](https://docs.services.mozilla.com/howtos/run-sync-1.5.html)
 
 ## Requirements
 
 * postgresql ( a new version )
+* nginx ( if you want to run behind https reverse proxy )
 
 
 ## Setup
