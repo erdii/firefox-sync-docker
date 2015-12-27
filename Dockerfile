@@ -21,7 +21,7 @@ WORKDIR /wd/syncserver
 RUN echo "psycopg2" >> requirements.txt
 
 RUN make build
-RUN make test
+# RUN make test
 
 RUN mkdir /conf
 ADD ./syncserver.ini /conf
