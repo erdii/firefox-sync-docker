@@ -24,7 +24,7 @@ RUN make build
 # RUN make test
 
 RUN mkdir /conf
-ADD ./syncserver.ini /conf
+COPY syncserver.ini /conf/
 
 VOLUME ["/conf"]
 
